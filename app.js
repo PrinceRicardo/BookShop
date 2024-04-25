@@ -64,7 +64,7 @@ app.post('/admin/savebook',(req, res)=>{
     // Route adds a new book
     const data = req.body
     if (!data.title)
-    return res.status(400).send("No titloe found")
+    return res.status(400).send("No title found")
 
     if(!data.author)
     return res.status(400).send("No author found")
