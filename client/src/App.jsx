@@ -11,7 +11,6 @@ function App() {
     <>
         <h1 className= 'text-amber-500 text-9xl text center'>Book Of Jujutsu</h1>
         <AddBook/>
-        <ShowBook/>
         <ShowAll/>
     </>
   )
